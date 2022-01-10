@@ -82,7 +82,7 @@
                     <div class="col-md-6 initial-0 aos-init " data-aos="zoom-in" data-aos-delay="200">
                         <p id="hey">HEY THERE !</p>
                         {% for infor in info %}
-                        <div class="test" style="width: 100%;">
+                        <div class="test" style="width: 20%;">
                             <img src="{% static 'images/ayub.jpg' %}">
                         </div>
                         <h1 id="name">I'M <span>{{infor.name_complete}}</span> </h1>
@@ -108,7 +108,7 @@
 
                     </div>
                     <div class="col-md-6 initial-1 aos-init" data-aos="zoom-in" data-aos-delay="300">
-                        <img src="{{infor.avatar}}" alt="">
+                        <img src="{% static 'images/pro1.png' %}" alt="">
                     </div>
                     {% endfor %}
 
@@ -125,7 +125,7 @@
                 <div class="row2 initial-3">
                     {% for aboutme in about %}
                     <div class="col-md-6 aos-init" data-aos="fade-up-right" data-aos-delay="700">
-                        <img src="{{aboutme.about_avatar}}" alt="">
+                        <img src="{% static 'images/pro3.png' %}" alt="">
                     </div>
                     <div class="col-md-6 initial-4">
                         <div class="title aos-init" data-aos="zoom-in" data-aos-delay="200">
@@ -177,7 +177,7 @@
 
                 <div class="small-container">
                     <div class="row9">
-                        <div class="col-md-10 initial-5">
+                        <div class="col-md-8 initial-5">
                             <div class="title">
                                 <h1 class="">SKILLS</h1>
                             </div>
